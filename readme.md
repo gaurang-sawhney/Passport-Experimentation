@@ -1,9 +1,9 @@
-# SC Node Applicatiomn
+# SC Node Application
 
 This is a very small node application which tends to make use of passport.js for authentication purpose.
 The idea behind this application is to understand how we can make use of Passport.js to prevent unauthenticated access to an endpoint.
 
-# New Features!
+# Features
 
   - It supports authentication.
   - It supports JSON patching.
@@ -14,10 +14,10 @@ The idea behind this application is to understand how we can make use of Passpor
 
 | Endpoint | Description | Method | Required Params | Params Description | Authenticated |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| / | Public Endpoint for test purpose. | GET | N/A | N/A | No |
-| /login | Enpoint to enable login. | POST | username, password | Username and passoword of the user. | No |
-| /json | Endpoint to apply patch to the JSON. | PATCH | json, patch | JSON to be patched and it's patch | Yes | 
-| /thumbnail | Endpoint to get a thumbnail of image. | GET | url | Public URL of the image. | Yes |
+| `/` | Public Endpoint for test purpose. | GET | N/A | N/A | No |
+| `/login` | Enpoint to enable login. | POST | username, password | Username and passoword of the user. | No |
+| `/json` | Endpoint to apply patch to the JSON. | PATCH | json, patch | JSON to be patched and it's patch | Yes | 
+| `/thumbnail` | Endpoint to get a thumbnail of image. | GET | url | Public URL of the image. | Yes |
 
 ## How to Run
 You can run the application in two ways:-
