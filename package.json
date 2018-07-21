@@ -1,0 +1,36 @@
+{
+  "name": "sc_node_task",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "nyc mocha",
+    "start": "node ./src/server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jimp": "^0.2.28",
+    "jsonpatch": "^3.0.1",
+    "jsonwebtoken": "^8.3.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "resize-image": "^0.1.0",
+    "winston": "^3.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "nyc": "^12.0.2",
+    "querystring": "^0.2.0",
+    "request": "^2.87.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "some gie"
+  },
+  "author": "Gaurang",
+  "description": "Experimenting with passport.js"
+}
