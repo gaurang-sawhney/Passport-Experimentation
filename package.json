@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "some gie"
+    "url": "https://github.com/gaurang-sawhney/Passport-Experimentation"
   },
   "author": "Gaurang",
   "description": "Experimenting with passport.js"
